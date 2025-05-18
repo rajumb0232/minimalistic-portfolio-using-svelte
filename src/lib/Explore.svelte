@@ -6,13 +6,12 @@
 
 <section
   id="explore"
-  class="h-screen w-3xl grid grid-cols-2 grid-rows-2 gap-8 p-10"
+  class="w-full min-h-screen max-w-screen-lg mx-auto py-20 px-6 flex flex-col items-start md:px-10 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-8"
 >
-  <!-- About Me -->
   <div
-    class="cursor-pointer col-start-1 p-5 row-span-2 rounded-4xl hover:bg-green-500/20 hover:border-2 hover:border-green-400 hover:shadow-[0_0_60px] hover:shadow-green-500/20 transition-all duration-300 flex flex-col"
+    class="cursor-pointer p-5 rounded-4xl hover:bg-green-500/20 hover:border-2 hover:border-green-400 hover:shadow-[0_0_60px] hover:shadow-green-500/20 transition-all duration-300 flex flex-col w-full mb-8 md:mb-0 md:col-start-1 md:row-span-2"
   >
-    <h2 class="text-3xl font-bold">About Me</h2>
+    <h2 class="text-3xl font-bold mb-4">About Me</h2>
     <p>
       I'm a Full Stack Developer and Mentor with 3+ years in tech and 2+ years
       of hands-on industry experience. My core strength lies in backend
@@ -22,9 +21,8 @@
     <Aboutme />
   </div>
 
-  <!-- Skills -->
   <div
-    class="cursor-pointer col-start-2 row-start-1 p-5 rounded-4xl hover:bg-purple-400/20 hover:border-2 hover:border-purple-300 hover:shadow-[0_0_60px] hover:shadow-purple-400/20 transition-all duration-300"
+    class="cursor-pointer p-5 rounded-4xl hover:bg-purple-400/20 hover:border-2 hover:border-purple-300 hover:shadow-[0_0_60px] hover:shadow-purple-400/20 transition-all duration-300 w-full mb-8 md:mb-0 md:col-start-2 md:row-start-1"
   >
     <h2 class="text-3xl font-bold mb-4">Skills</h2>
     <div class="flex flex-wrap gap-2">
@@ -36,11 +34,10 @@
     <Skills />
   </div>
 
-  <!-- Projects -->
   <div
-    class="cursor-pointer col-start-2 row-start-2 p-4 hover:p-5 rounded-4xl hover:bg-blue-400/20 border-2 border-white/10 hover:border-blue-300 hover:shadow-[0_0_60px] hover:shadow-blue-400/20 transition-all duration-300"
+    class="cursor-pointer p-4 hover:p-5 rounded-4xl hover:bg-blue-400/20 border-2 border-white/10 hover:border-blue-300 hover:shadow-[0_0_60px] hover:shadow-blue-400/20 transition-all duration-300 w-full md:col-start-2 md:row-start-2"
   >
-    <h2 class="text-3xl font-bold">Projects</h2>
+    <h2 class="text-3xl font-bold mb-4">Projects</h2>
     <p>Click to view projects.</p>
     <Projects />
   </div>
