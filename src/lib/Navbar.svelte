@@ -16,7 +16,7 @@
 </script>
 
 <nav
-  class="fixed w-screen pt-6 px-10 flex justify-center items-center font-bold font-selected text-xl bg-inherit/95 backdrop-blur"
+  class="fixed z-40 w-screen pt-6 px-10 flex justify-center items-center font-bold font-selected text-xl bg-inherit/95 backdrop-blur"
 >
   <span>👋 Hi, I'm Raju</span>
   <ul class="flex justify-center items-center ml-auto">
