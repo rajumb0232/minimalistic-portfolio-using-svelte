@@ -1,5 +1,34 @@
 <script>
   import Socials from "./contact/Socials.svelte";
+  import ShimmerAnimate from "./utils/ShimmerAnimate.svelte";
+
+  let isAnimated = $state([false, false, false]);
+
+  function animateSequence() {
+    isAnimated = [false, false, false];
+
+    // Animate one by one
+    setTimeout(() => (isAnimated[0] = true), 0);
+    setTimeout(() => {
+      isAnimated[0] = false;
+      isAnimated[1] = true;
+    }, 3000);
+    setTimeout(() => {
+      isAnimated[1] = false;
+      isAnimated[2] = true;
+    }, 6000);
+
+    // Restart after 5s pause once all are done
+    setTimeout(() => animateSequence(), 11000);
+  }
+
+  let initialized = false;
+
+  $effect(() => {
+    if (initialized) return;
+    initialized = true;
+    animateSequence();
+  });
 </script>
 
 <section
@@ -11,12 +40,33 @@
   >
     <div class="text-5xl mt-2.5 md:mt-0">
       <p>
-        Full Stack Developer building scalable backends, slick UIs, and
-        mentoring devs along the way.
+        <span
+          ><ShimmerAnimate
+            text="Full Stack Developer"
+            isAnimated={isAnimated[0]}
+            delay={0}
+          /></span
+        >
+        building scalable backends, slick UIs, and
+        <span
+          ><ShimmerAnimate
+            text="mentoring devs"
+            isAnimated={isAnimated[1]}
+            delay={0}
+          /></span
+        >
+        along the way.
       </p>
       <p>
-        — Crafting open-source tools. Obsessed with clean architecture,
-        performance, and staying ahead of the tech curve.
+        <span
+          ><ShimmerAnimate
+            text="— Crafting open-source tools"
+            isAnimated={isAnimated[2]}
+            delay={0}
+          /></span
+        >
+        . Obsessed with clean architecture, performance, and staying ahead of the
+        tech curve.
       </p>
     </div>
     <div class="text-3xl mt-2.5 md:mt-0 flex flex-col items-start">
@@ -31,7 +81,7 @@
       >
       <br />
 
-        <Socials/>
+      <Socials />
     </div>
   </div>
 </section>
