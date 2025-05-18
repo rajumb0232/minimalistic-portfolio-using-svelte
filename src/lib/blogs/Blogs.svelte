@@ -30,7 +30,7 @@
 </script>
 
 <section
-  class="w-full text-slate-300 flex flex-col items-center justify-center mt-10"
+  class="w-full px-4 text-slate-300 flex flex-col items-center justify-center mt-10"
 >
   <h1 class="text-4xl font-bold my-10">Blogs</h1>
   <div class="w-full grid grid-cols-3 gap-4">
@@ -39,7 +39,11 @@
     {/each}
   </div>
 
-  <button class="px-8 py-3 bg-blue-600 rounded-xl my-20 hover:bg-blue-700 text-white font-semibold text-lg transition duration-300">
-    <a href="https://blog.rajugowda.in">View blogs →</a></button
-  >
+<div class="w-full flex justify-end">
+    <button
+        class="px-8 py-3 bg-blue-600 rounded-xl my-20 hover:bg-blue-700 text-white font-semibold text-lg transition duration-300"
+    >
+        <a href="https://blog.rajugowda.in">View Blogs →</a>
+    </button>
+</div>
 </section>
