@@ -39,11 +39,15 @@
     {/each}
   </div>
 
-<div class="w-full flex justify-end">
+  <div class="w-full flex justify-end">
     <button
-        class="px-8 py-3 bg-blue-600 rounded-xl my-20 hover:bg-blue-700 text-white font-semibold text-lg transition duration-300"
+      class="px-8 py-3 bg-blue-600 rounded-xl my-20 hover:bg-blue-700 text-white font-semibold text-lg transition duration-300"
     >
-        <a href="https://blog.rajugowda.in">View Blogs →</a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://blog.rajugowda.in">View Blogs →</a
+      >
     </button>
-</div>
+  </div>
 </section>

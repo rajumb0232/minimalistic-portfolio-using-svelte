@@ -93,7 +93,7 @@
     <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
       {#each testimonials as testimonial}
         <div
-          class=" border border-gray-200 rounded-2xl p-6 shadow-sm hover:shadow-md hover:bg-gray-800 transition-shadow duration-300"
+          class=" border border-gray-200 hover:border-blue-300 rounded-2xl p-6 shadow-sm hover:shadow-md hover:bg-gray-800 transition-shadow duration-300"
         >
           <p class="text-sm mb-4">"{testimonial.feedback}"</p>
           <div class="mt-4">
@@ -108,7 +108,12 @@
     <button
       class="px-8 py-3 bg-blue-600 rounded-xl my-20 hover:bg-blue-700 text-white font-semibold text-lg transition duration-300"
     >
-      <a href="https://blog.rajugowda.in">More Testimonials →</a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://docs.google.com/spreadsheets/d/1VH_MqM_qRqDX4I3Wwy3VPRdWSqv_hktKEdvL7jaQMOw/edit?usp=sharing"
+        >More Testimonials →</a
+      >
     </button>
   </div>
 </section>
