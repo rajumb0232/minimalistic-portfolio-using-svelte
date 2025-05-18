@@ -6,7 +6,7 @@
 
 <Navbar />
 
-<main class="font-selected px-10 mx-auto max-w-5xl">
+<main class="font-selected px-10 mx-auto max-w-5xl flex flex-col justify-center items-center">
   <Hero />
   <Explore />
 </main>
