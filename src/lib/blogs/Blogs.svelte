@@ -30,7 +30,7 @@
 </script>
 
 <section
-  class="w-full max-w-screen-lg mx-auto px-4 md:px-6 text-slate-300 flex flex-col items-center mt-10"
+  class="w-full max-w-screen-lg mx-auto px-4 md:px-6 text-slate-300 flex flex-col items-center md:mt-10"
 >
   <h1 class="text-3xl sm:text-4xl font-bold my-10">Blogs</h1>
 
