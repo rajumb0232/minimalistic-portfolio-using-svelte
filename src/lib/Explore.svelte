@@ -38,7 +38,7 @@
 
   <!-- Projects -->
   <div
-    class="cursor-pointer col-start-2 row-start-2 p-5 rounded-4xl hover:bg-blue-400/20 hover:border-2 hover:border-blue-300 hover:shadow-[0_0_60px] hover:shadow-blue-400/20 transition-all duration-300"
+    class="cursor-pointer col-start-2 row-start-2 p-4 hover:p-5 rounded-4xl hover:bg-blue-400/20 border-2 border-white/10 hover:border-blue-300 hover:shadow-[0_0_60px] hover:shadow-blue-400/20 transition-all duration-300"
   >
     <h2 class="text-3xl font-bold">Projects</h2>
     <p>Click to view projects.</p>
