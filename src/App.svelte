@@ -18,11 +18,8 @@
   <Blogs />
   <Testimonials />
   <Contact />
-  <Footer />
 </main>
-<main class="font-selected flex flex-col justify-center items-center">
-  <div class="px-10 mx-auto max-w-5xl w-full"></div>
-</main>
+<Footer /> 
 
 <style>
   :global(html) {
