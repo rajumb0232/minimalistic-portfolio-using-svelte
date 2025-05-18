@@ -92,16 +92,16 @@
     <p class="text-center text-lg mb-10">Mentored 30+ project bootcamps, guiding thousands of corporate professionals and aspiring engineering grads. Here’s what some of them had to say 👇</p>
 
     <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-      {#each testimonials as testimonial}
-        <div
-          class=" border border-gray-200 hover:border-blue-300 rounded-2xl p-6  hover:shadow-[0_0_40px] hover:shadow-blue-300/15 hover:bg-gray-800 transition-shadow duration-300"
-        >
-          <p class="text-sm mb-4">"{testimonial.feedback}"</p>
-          <div class="mt-4">
-            <p class="font-semibold">{testimonial.name}</p>
-            <p class="text-xs">{testimonial.company}</p>
-          </div>
+      {#each testimonials as testimonial (testimonial.name)}
+      <div
+        class="border border-gray-200 hover:border-blue-300 rounded-2xl p-6 hover:scale-105 hover:shadow-[0_0_40px] hover:shadow-blue-300/15 hover:bg-gray-800 transition-all duration-300 ease-in-out"
+      >
+        <p class="text-sm mb-4">"{testimonial.feedback}"</p>
+        <div class="mt-4">
+        <p class="font-semibold">{testimonial.name}</p>
+        <p class="text-xs">{testimonial.company}</p>
         </div>
+      </div>
       {/each}
     </div>
   </div>
