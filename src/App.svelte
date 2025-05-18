@@ -1,6 +1,8 @@
 <script>
   import Blogs from "./lib/blogs/Blogs.svelte";
+  import Contact from "./lib/contact/Contact.svelte";
   import Explore from "./lib/Explore.svelte";
+  import Footer from "./lib/footer/footer.svelte";
   import Hero from "./lib/Hero.svelte";
   import Navbar from "./lib/Navbar.svelte";
   import Testimonials from "./lib/testimonials/Testimonials.svelte";
@@ -15,6 +17,8 @@
   <Explore />
   <Blogs />
   <Testimonials />
+  <Contact />
+  <Footer />
 </main>
 <main class="font-selected flex flex-col justify-center items-center">
   <div class="px-10 mx-auto max-w-5xl w-full"></div>
