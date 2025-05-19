@@ -80,7 +80,7 @@
         </p>
       </div>
 
-      <div class="text-xl sm:text-2xl md:text-3xl mt-6 md:mt-10 flex flex-col items-start px-2 sm:px-4 md:px-0">
+      <div class="text-xl sm:text-2xl md:text-3xl mt-6 md:mt-0 flex flex-col items-start px-2 sm:px-4 md:px-0">
         <p class="text-indigo-300 py-2 hover:underline">
           <a href="mailto:rajugowda.towork@gmail.com">rajugowda.towork@gmail.com</a>
         </p>
