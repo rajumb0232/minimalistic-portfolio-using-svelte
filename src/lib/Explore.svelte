@@ -6,7 +6,7 @@
 
 <section
   id="explore"
-  class="w-full min-h-screen max-w-screen-lg mx-auto md:py-20 px-6 flex flex-col items-start md:px-10 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-8"
+  class="w-full min-h-screen max-w-screen-lg mx-auto md:py-20 px-0 flex flex-col items-start md:px-10 md:grid md:grid-cols-2 md:grid-rows-2 md:gap-8"
 >
   <div
     class="cursor-pointer p-5 rounded-4xl hover:bg-green-500/20 hover:border-2 hover:border-green-400 hover:shadow-[0_0_60px] hover:shadow-green-500/20 transition-all duration-300 flex flex-col w-full mb-8 md:mb-0 md:col-start-1 md:row-span-2"
@@ -14,9 +14,12 @@
     <h2 class="text-3xl font-bold mb-4">About Me</h2>
     <p>
       I'm a Full Stack Developer and Mentor with 3+ years in tech and 2+ years
-      of hands-on industry experience. My core strength lies in backend
-      development with Spring Boot, where I specialize in building scalable
-      microservices
+      of hands-on industry experience. Majorly focussed on backend development
+      with Spring Boot, where I specialize in building scalable microservices.
+    </p>
+    <p>
+      Frontend? Not a stranger. I’ve built production-ready UIs using React,
+      TailwindCSS, React Router, and Redux.
     </p>
     <Aboutme />
   </div>
