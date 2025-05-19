@@ -3,7 +3,7 @@
 
 </script>
 <section id="contact" class="w-full h-screen flex flex-col justify-center items-center">
-  <div class="text-2xl">
+  <div class="text-2xl text-center">
     <span>Contact: </span>
     <a href="mailto:rajugowda.towork@gmail.com"
     class="text-blue-500"
