@@ -10,16 +10,17 @@
 
 <Navbar />
 
-<main
-  class="font-selected px-10 mx-auto max-w-5xl flex flex-col justify-center items-center"
->
-  <Hero />
-  <Explore />
-  <Blogs />
-  <Testimonials />
-  <Contact />
+<main class="font-selected w-full">
+  <div class="max-w-5xl mx-auto px-4 md:px-6 lg:px-8">
+    <Hero />
+    <Explore />
+    <Blogs />
+    <Testimonials />
+    <Contact />
+  </div>
 </main>
-<Footer /> 
+
+<Footer />
 
 <style>
   :global(html) {
