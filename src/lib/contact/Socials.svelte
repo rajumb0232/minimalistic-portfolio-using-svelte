@@ -1,7 +1,7 @@
 <script>
-  import hashnodeIcon from "../../../public/socials/hashnode-icon.svg";
-  import linkedInIcon from "../../../public/socials/linkedin-icon.svg";
-  import blogIcon from "../../../public/socials/blog-icon.svg";
+  import hashnodeIcon from "../../assets/socials/hashnode-icon.svg";
+  import linkedInIcon from "../../assets/socials/linkedin-icon.svg";
+  import blogIcon from "../../assets/socials/blog-icon.svg";
   const socials = [
     {
       name: "LinkedIn",
