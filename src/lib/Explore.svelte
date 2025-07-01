@@ -12,12 +12,12 @@
     class="cursor-pointer p-5 rounded-4xl hover:bg-green-500/20 hover:border-2 hover:border-green-400 hover:shadow-[0_0_60px] hover:shadow-green-500/20 transition-all duration-300 flex flex-col w-full mb-8 md:mb-0 md:col-start-1 md:row-span-2"
   >
     <h2 class="text-3xl font-bold mb-4">About Me</h2>
-    <p>
+    <p class="text-lg text-gray-200">
       I'm a Full Stack Developer and Mentor with 3+ years in tech and 2+ years
       of hands-on industry experience. Majorly focussed on backend development
       with Spring Boot, where I specialize in building scalable microservices.
-    </p>
-    <p>
+    </p> <br>
+    <p class="text-lg text-gray-200">
       Frontend? Not a stranger. I’ve built production-ready UIs using React,
       TailwindCSS, React Router, and Redux.
     </p>
@@ -30,7 +30,7 @@
     <h2 class="text-3xl font-bold mb-4">Skills</h2>
     <div class="flex flex-wrap gap-2">
       {#each ["java_8", "java_script", "react_js", "spring_framework", "spring_boot", "rest_apis", "microservices", "my_sql", "mongodb", "go_lang", "svelte"] as skill}
-        <span class="bg-white/20 px-3 py-1 rounded-lg">{"#" + skill}</span>
+        <span class="bg-white/20 px-3 py-1 rounded-lg text-lg">{"#" + skill}</span>
       {/each}
     </div>
 
@@ -41,7 +41,7 @@
     class="cursor-pointer p-4 hover:p-5 rounded-4xl hover:bg-blue-400/20 border-2 border-white/10 hover:border-blue-300 hover:shadow-[0_0_60px] hover:shadow-blue-400/20 transition-all duration-300 w-full md:col-start-2 md:row-start-2"
   >
     <h2 class="text-3xl font-bold mb-4">Projects</h2>
-    <p>Click to view projects.</p>
+    <p class="text-lg text-gray-200">Click to view projects.</p>
     <Projects />
   </div>
 </section>

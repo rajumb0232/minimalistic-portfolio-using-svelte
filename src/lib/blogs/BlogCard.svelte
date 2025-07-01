@@ -17,8 +17,8 @@
     class="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105 filter grayscale group-hover:grayscale-0"
   />
   <div class="p-4">
-    <h3 class="text-lg font-semibold text-white line-clamp-2 mb-2">{title}</h3>
-    <p class="mt-2 text-sm text-gray-400 line-clamp-3">{description}</p> <div class="mt-4 text-right">
+    <h3 class="text-xl font-semibold text-white line-clamp-2 mb-2">{title}</h3>
+    <p class="mt-2 text-md text-gray-400 line-clamp-3">{description}</p> <div class="mt-4 text-right">
       <span
         class="inline-block text-blue-400 text-sm font-medium group-hover:underline" >
         Read More →
