@@ -37,11 +37,12 @@
     <Skills />
   </div>
 
-  <div
+  <a
     class="cursor-pointer p-4 hover:p-5 rounded-4xl hover:bg-blue-400/20 border-2 border-white/10 hover:border-blue-300 hover:shadow-[0_0_60px] hover:shadow-blue-400/20 transition-all duration-300 w-full md:col-start-2 md:row-start-2"
+    href="https://github.com/rajumb0232?tab=repositories" target="_blank" rel="noopener noreferrer"
   >
     <h2 class="text-3xl font-bold mb-4">Projects</h2>
     <p class="text-lg text-gray-200">Click to view projects.</p>
     <Projects />
-  </div>
+  </a>
 </section>

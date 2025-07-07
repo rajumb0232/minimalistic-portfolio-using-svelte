@@ -36,7 +36,7 @@
 <section class="bg-inherit py-16 px-4 sm:px-6 lg:px-8">
     <div class="max-w-7xl mx-auto">
         <h2 class="text-4xl font-bold text-center mb-2">Testimonials</h2>
-        <p class="text-center text-lg mb-10">Mentored 30+ project bootcamps, guiding thousands of corporate
+        <p class="text-center text-lg mb-10">Mentored 30+ project bootcamps, guiding 100s of corporate
             professionals and aspiring engineering grads. Here’s what some of them had to say 👇</p>
 
         <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
